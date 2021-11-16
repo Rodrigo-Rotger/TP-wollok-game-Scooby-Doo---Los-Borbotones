@@ -1,0 +1,13 @@
+import wollok.game.*
+import niveles.*
+
+program app {
+	game.title("Scooby Doo Papá")
+	game.height(9)
+	game.width(14)
+	
+	nivel1.configurate()
+	
+	game.start()
+
+}
